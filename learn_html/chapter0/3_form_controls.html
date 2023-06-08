@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Control</title>
+</head>
+<body>
+    <h2>HTML Form Control</h2>
+    <p>There are different types of form controls that you can use to collect data using HTML form:</p>
+    <ol type="1">
+        <li>text input controls</li>
+        <li>password input controls</li>
+        <li>checkboxes controls</li>
+        <li>radio box controls</li>
+        <li>select box controls</li>
+        <li>file select boxes</li>
+        <li>clickable buttons</li>
+        <li>submit and reset button</li>
+    </ol>
+    <hr>
+    <h2>Text Input Controls</h2>
+    <p>
+        There are three types of text input on forms:<br>
+        1.Single-Line text input controls - This control is used for ite of user input, such as <br>
+        search boxes or name. They are created using HTML "input" tag.<br />
+        2.Password input controls - This is also a single-line text input but it masks the character as<br>
+        soon as a user enter it. They are also created using HTML "input" tag but attributr is to set password.<br />
+        3.Multi-line text input controls - This is used when the user is required to give details that <br>
+        may be longer than a single sentence. Multi-line input controls are created using HTML "textarea" tag.
+    </p>
+    <hr>
+<h2>Single-Line text input controls</h2> 
+<form>
+    <label>First Name:</label>
+    <input type="text" name="first_name" placeholder="enter name"/>
+    <br>
+    <label>Last Name:</label>
+    <input type="text" name="last_name" placeholder="last name"/>
+</form>
+<hr>
+<h2>Password input controls</h2>
+<form>
+    User ID: <input type="email" name="Emial_id" placeholder="enter email" />
+    <br>
+    Password: <input type="password" name="password" placeholder="enter password" />
+</form>
+<hr>
+<h2>Multi-line text input controls"></h2>
+<form>
+    Description : <br />
+    <textarea rows="5" cols="50" name="Description">
+        My name is maryam. i want to become a full stack developer. here i am write about me.
+        i really want when i leave this university my CGPA minimum 3 and when i complete my degree
+        i have a lot of skills about my degree(information technology)
+    </textarea>
+</form>
+<hr>
+<h2>Checkbox control</h2>
+<p>Checkbox are used when more than one option is required to be selected.<br>
+They are also created using HTML "input" tag but type attributeis set to checkbox.</p>
+<form>
+    <input type="checkbox" name="maths" value="on"/> Maths
+    <input type="checkbox" name="physics" value="on"/> Physics
+</form>
+<hr>
+<h2>Radio Button Control</h2>
+<p>Ratio button is used when out of many options, just one option is required to be selected.<br>
+They are also created using HTML"input" tag but type is set to radio. </p>
+<form>
+    <input type="radio" name="Gender" value="Male">
+    <label> Male </label>
+    <input type="radio" name="Gender" value="Female">
+    <label> Female </label>
+</form>
+<hr>
+<h2>Select Box control</h2>
+<p>A select box, also called drop down box which provides option to list down various options <br>
+in the form of drop-down list, where a user can select one or more options. </p>
+<form>
+    <select name="dropdown">
+        <option calue="HTML" selected>HTML</option>
+        <option calue="CSS" selected>CSS</option>
+        <option calue="Javascript" selected>Javascript</option>
+    </select>
+</form>
+<hr>
+<h2>File Upload Box</h2>
+<p>If you want to upload a file to your website, you will need to use a file upload <br>
+box, also known as a file select box. This is also created using the "input" element <br>
+but type attribute is set to file.</p>
+<form>
+    <input type="file" name="fileupload" accept="image/*" />
+</form>
+<hr>
+<h2>Button controls</h2>
+<p>
+    There are various ways in HTML to create clickable buttons. You can also create a clickable button <br>
+using "input" tag by setting its type attribute to button.The type attribute can take the <br>
+following values: submit/description <br>
+submit : This creates a button that automatically submits a forms. <br>
+reset : This creates a button that automatically resets form control to theie initial values. <br>
+button : This creates a button that is used to tigger a client-side script when the user clicks that button.
+</p>
+<form>
+    <input type="submit" name="submit" value="Submit" />
+    <input type="reset" name="reset" value="Reset" />
+    <input type="button" name="ok" value="OK" />
+    <button>Download</button>
+</form>
+</body>
+</html>

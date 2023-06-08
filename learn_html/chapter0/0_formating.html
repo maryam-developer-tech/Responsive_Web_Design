@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists and Tables</title>
+</head>
+<body>
+    <h1>Html consists of three type of lists</h1>
+    <h2>1. Unordered list</h2>
+    <!-- DISC -->
+    <ul type="disc">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <!-- CIRCLE -->
+    <ul type="cirlce">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <!-- SQUARE -->
+    <ul type="square">
+        <li>coffee</li>
+        <li>milk</li>
+        <li>tea</li>
+    </ul>
+    <!-- NONE -->
+    <ul type="none">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ul>
+    <hr>
+    <h2>2. Ordered list</h2>
+    <!-- it has 5 types -->
+    <!-- NUMBERS -->
+    <ol type="1">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <!-- UPPERCASE LETTERS -->
+    <ol type="A">
+    <li>coffee</li>
+    <li>tea</li>
+    <li>milk</li>
+    </ol>
+    <!-- LOWERCASE LETTERS -->
+    <ol type="a">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <!-- UPPERCASE ROMAN NUMBERS -->
+    <ol type="I">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <!-- LOWERCASER ROMAN NUMBERS -->
+    <ol type="i">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <hr>
+    <h2>3. Description lists</h2>
+    <dl>
+        <dt>coffee</dt>
+        <dd> - black hot drink</dd>
+        <dt>tea</dt>
+        <dd> - brown hot drink</dd>
+        <dt>milk</dt>
+        <dd> - white cold drink</dd>
+    </dl>
+    <hr>
+    <h2>Control order list counting</h2>
+    <p>By default, an ordered list will start counting from 1.<br> If you want to start counting from a specified number, you can use the attribute </p>
+    <ol start="15">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>milk</li>
+    </ol>
+    <hr>
+    <h2>The HTML "pre" Element</h2>
+    <p>The html "pre" element defines preformatted text.<br> The text inside a "pre" element is displayed in a fixed-width font(usually courier), <br> and it preserves both spaces and line breaks:</p>
+    <pre>
+       My Binnie lies over the ocean.
+       My Binnie lies over the sea.
+       My Binnie lies over the ocean.
+       Oh. bring back my Binnie to me.
+    </pre>
+    <hr>
+    <h2> HTML Formatting Elements </h2>
+    <p> Html also defines special elements for defining text with a special meaning.<br> Formatting elements were designed to display special types of text: </p> 
+        <b> Defines bold text </b>
+        <br>
+        <em> Defines emphasized text </em>
+        <br>
+        <i> Defines italic text </i>
+        <br>
+        <small> Defines small text </small>
+        <br>
+        <strong> Defines important text </strong>
+        <br>
+        <sub> Defines subscripted text </sub>
+        <br>
+        <sup> Defines superscripted text </sup>
+        <br>
+        <ins> Defines insert text </ins>
+        <br>
+        <del> Defines deleted text </del>
+        <br>
+        <mark> Defines marked/highlighted text </mark>
+        <hr>
+        <h2> HTML "q" for Short Quotations</h2>
+        <p> The HTML "q" element defines a short question.<br> Browsers usually quotation marks around the "q" element.<br></p>
+        <p>WWF's goal is to:<q>Build a future where people live in harmony with nature</q></p>
+        <hr>
+        <h2> HTML "blockquote" for Short Quotations</h2>
+        <p>The HTML "blockquote" elements defines a section that is quoted from another source.<br>Browser usually indent "blockquote" elements:</p>
+        <p>Here is a quote from WWF's Website:</p>
+        <blockquote> From 28 years, PCC has been giving a good information about IT to Student. </blockquote>
+        <hr>
+        <h2> HTML "abbr" for Short Quotations</h2>
+        <p>The HTML "abbr" element defines an abbreviation or an acronym.</p>
+        <p>The <abbr title="Punjab Computer College">PCC</abbr> based in 1989. </p>
+        <hr>
+        <h2> HTML "address" for Short Quotations</h2>
+        <p>The HTML "address" element defines contact infoemation (author/owner) of a document or an article.<br> The "address" element is usually displayed in italic.<br>Most browser will add a line break before and after the element. </p>
+        <address>
+            Visit us at:<br>
+            www.pccmbd.com<br>
+            Punjab Center, Near Cheam Chowk,Phalia Road <br>
+            Mandi Bahauddin
+        </address>
+        <hr>
+        <h2>HTML "cite" for Work Title</h2>
+        <p>The HTML "cite" element defines the tile of a work. <br>Browser usually display "cite" element in italic </p>
+        <p><cite>Punjab Computer College</cite> by Rana Sardar Khan.Based in 1989.</p>
+        <h2>HTML "bdo" for Bi-Directional Override</h2>
+        <p>The HTML "bdo" elements defines bi-directional override.<br>The "bdo" element is used to override is used to override the current text direction: </p>
+        <bdo dir="rtl">This text will be written from right to left</bdo> 
+        <hr> 
+        <h2>HTML Table</h2>
+        <p>An HTML table can be define with the "table" tag.<br> Each table row is defined with the "tr" tag.<br> A table header is defined with the "th" tag.<br>By default, table heading are bold and centered. <br> A table data/cell is defined with the "td" tag. </p>
+        <p>An HTML table can be define with the "table" tag.<br> Each table row is defined with the "tr" tag.<br> A table header is defined with the "th" tag.<br>By default, table heading are bold and centered. <br> A table data/cell is defined with the "td" tag. </p>
+        <table width="300px" border="2px">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Maryam</td>
+                <td>Bibi</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Ayesha</td>
+                <td>Sadiq</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Ushma</td>
+                <td>Abid</td>
+                <td>22</td>
+            </tr>
+        </table>
+        <hr>
+    <h2>HTML Table - Cells that Span Many Columns</h2>
+    <p>To make a cell span more than one column, use "colspan" attribute:</p>    
+    <table width="300px" border="2px">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>456387853</td>
+            <td>354688775</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>HTML Table - Cells that Span Many Rows</h2>
+    <p>To make a cell span more than one row, use the rowspan attribute:</p>
+    <table width="300" border="2px">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>357756644</td>
+            <tr>
+                <td>453675767</td>
+            </tr>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>
+<hr>
+
